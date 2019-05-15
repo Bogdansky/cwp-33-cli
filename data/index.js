@@ -7,7 +7,7 @@ const options = {
     logging: false,
     port: config.port,
 };
-const sequelize = new Sequelize(config.db, config.login, config.password, options);
+const sequelize = new Sequelize(config.database, config.login, config.password, options);
 
 const Repo = require('./repo')(Sequelize, sequelize);
 const Commit = require('./commit')(Sequelize, sequelize);
