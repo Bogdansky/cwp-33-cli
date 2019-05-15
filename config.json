@@ -1,9 +1,9 @@
 {
-  "Host":"ec2-54-235-208-103.compute-1.amazonaws.com",
-  "Database":"dc951ugug67g54",
-  "User":"picjwvhymxbjem",
+  "host":"ec2-54-235-208-103.compute-1.amazonaws.com",
+  "database":"dc951ugug67g54",
+  "login":"picjwvhymxbjem",
   "Port":5432,
-  "Password":"e4329f04c828f34728644d8009eb31286ade66ec4695846027be3caa40894341",
+  "password":"e4329f04c828f34728644d8009eb31286ade66ec4695846027be3caa40894341",
   "dialect": "postgres",
   "define": {
       "timestamps": true,
